@@ -4767,6 +4767,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 172.72 97.79)
+		(end 281.432 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 219be122-72fe-4716-b8cb-a03f4e3c7b3d)
+	)
+	(text "SD Card Module"
+		(exclude_from_sim no)
+		(at 182.626 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c9be474-21b8-4843-9cbb-59a8a8a27b07")
+	)
 	(text "ESP32 microcontroller"
 		(exclude_from_sim no)
 		(at 180.086 18.034 0)
