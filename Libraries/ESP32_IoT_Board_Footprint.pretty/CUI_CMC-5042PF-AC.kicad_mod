@@ -1,0 +1,116 @@
+(footprint "CUI_CMC-5042PF-AC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.63543 -4.44807 0)
+		(layer "F.SilkS")
+		(uuid "947c421e-5cd8-48fc-8c2e-aba1d5fc1fb9")
+		(effects
+			(font
+				(size 1.000693 1.000693)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUI_CMC-5042PF-AC"
+		(at 6.98941 4.44779 0)
+		(layer "F.Fab")
+		(uuid "96f370a4-0843-48b0-952f-916df034c1e7")
+		(effects
+			(font
+				(size 1.00063 1.00063)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "985d44f7-b5f8-4ae2-accf-7be517aabe44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f5f1334-55f4-487e-a018-829ea7e92825")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "acbd0321-35d4-44f8-b90e-5b20c5717a1b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "51b8f41e-b85f-47f1-b303-0c338ef1d266")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "83e1a11f-6ed7-4f6f-9b82-04db1628a21d")
+	)
+	(pad "GND" thru_hole circle
+		(at 1 -0.95)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2c45741a-e3c8-4710-8eb0-f1c52d0bc7a0")
+	)
+	(pad "OUT" thru_hole circle
+		(at 1 0.95)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2e113a51-e255-4071-9a52-e44d4616aff5")
+	)
+	(embedded_fonts no)
+	(model "/home/youssif/kicad_projects/kicad_3d/CMC-5042PF-AC.step"
+		(offset
+			(xyz 0 0 -2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

@@ -1,0 +1,228 @@
+(footprint "TEMT6000X01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.077583 -1.607158 0)
+		(layer "F.SilkS")
+		(uuid "dc3c4067-4a62-47e6-9376-d2758ac0de87")
+		(effects
+			(font
+				(size 0.480705 0.480705)
+				(thickness 0.120176)
+			)
+		)
+	)
+	(property "Value" "TEMT6000X01"
+		(at 1.6 1.8 0)
+		(layer "F.Fab")
+		(uuid "2e64e032-787d-4379-ad3f-2bf7086575e4")
+		(effects
+			(font
+				(size 0.48078 0.48078)
+				(thickness 0.120195)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c60d5e1d-4dd4-4423-8c9e-a08017352a3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1520e57-693c-4099-b993-556b8073dec5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.82 -1.075)
+		(end 2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c25a1f31-96fa-4bb1-9793-ee1daef9c3b2")
+	)
+	(fp_line
+		(start 2.075 -1.075)
+		(end 2.075 -0.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6376f10f-d000-45df-a89d-f3532ed74994")
+	)
+	(fp_line
+		(start 2.075 0.88)
+		(end 2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b22db987-3284-4ce4-824c-15ef2b04b734")
+	)
+	(fp_line
+		(start 2.075 1.075)
+		(end -0.83 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "916abf71-0625-442d-b884-b20f76750913")
+	)
+	(fp_circle
+		(center -3 -0.7)
+		(end -2.9 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "66d8b1b5-28e2-4e8f-8d5b-7cdd7a4a8c93")
+	)
+	(fp_line
+		(start -2.555 -1.325)
+		(end 2.555 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64254df5-1785-4e65-9ad6-2d0e1cd6cd8f")
+	)
+	(fp_line
+		(start -2.555 1.325)
+		(end -2.555 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da84bcd7-1411-4c5e-b2cc-9ee3574767d6")
+	)
+	(fp_line
+		(start 2.555 -1.325)
+		(end 2.555 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ccc2ef1-013b-4c18-9333-6edb4abef0de")
+	)
+	(fp_line
+		(start 2.555 1.325)
+		(end -2.555 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "338ed851-ed89-4a57-ba88-c80fae77bbf6")
+	)
+	(fp_line
+		(start -2.075 -1.075)
+		(end 2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14b2fdfe-6b1e-4d1f-8339-90747155cf9a")
+	)
+	(fp_line
+		(start -2.075 1.075)
+		(end -2.075 -1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "efa04001-78b6-44ae-9e01-7cc21942192d")
+	)
+	(fp_line
+		(start 2.075 -1.075)
+		(end 2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6cda2cc-c99b-4483-9e36-c8dac98ca6e2")
+	)
+	(fp_line
+		(start 2.075 1.075)
+		(end -2.075 1.075)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "840ecca1-456d-4e58-9839-995ec9e50409")
+	)
+	(fp_circle
+		(center -3 -0.7)
+		(end -2.9 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a95e97bd-46a2-4a9b-b033-336ac2a937e5")
+	)
+	(pad "1" smd rect
+		(at -1.755 -0.55)
+		(size 1.1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "360cf93e-047c-428b-af1c-af067fe85d3d")
+	)
+	(pad "2" smd rect
+		(at -1.755 0.55)
+		(size 1.1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "26ceb151-aeca-4883-bb0d-a3c6267f34f9")
+	)
+	(pad "3" smd rect
+		(at 1.755 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e66d62e4-e89d-45e7-bd61-e2cfe7aad025")
+	)
+	(embedded_fonts no)
+	(model "/home/youssif/kicad_projects/kicad_3d/TEMT6000X01.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

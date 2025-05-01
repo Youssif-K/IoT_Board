@@ -584,6 +584,12 @@
         },
         {
           "group_by": false,
+          "label": "DigiKey Part Number ",
+          "name": "DigiKey Part Number ",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "DigiKey_Part_Number",
           "name": "DigiKey_Part_Number",
           "show": false
@@ -626,9 +632,21 @@
         },
         {
           "group_by": false,
+          "label": "Manufacturer Part Number ",
+          "name": "Manufacturer Part Number ",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Manufacturer Product Number",
           "name": "Manufacturer Product Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Product Number ",
+          "name": "Manufacturer Product Number ",
+          "show": false
         },
         {
           "group_by": false,
@@ -740,6 +758,14 @@
     [
       "efea3704-f822-4149-b454-1ed08d1b1842",
       "ESP32-C3-02"
+    ],
+    [
+      "2903240f-5c6c-4d7c-bcca-2e1a355a5ddd",
+      "Sensors"
+    ],
+    [
+      "691a4497-95f7-489d-893b-cc65740db334",
+      "User Interface"
     ]
   ],
   "text_variables": {}
